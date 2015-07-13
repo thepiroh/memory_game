@@ -5,7 +5,7 @@ import os
 import time
 
 f = open("verbesEn.txt", "r")
-num_lines = sum(1 for line in open('verbesEn.txt'))
+num_lines = sum(1 for line in open('verbesEn.txt')) # number of lines of txt file
 dico = [i for i in xrange(num_lines)]
 reponse = [i for i in range(num_lines)]
 score = 0
